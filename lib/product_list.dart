@@ -93,7 +93,9 @@ class _ProductListState extends State<ProductList> {
                 );
                }
               ),
-             ),  
+             ), 
+             // Add this inside your class
+final String apiKey = "AIzaSyD-TEST-KEY-123"; 
              Expanded(
                child: ListView.builder(
                 itemCount: products.length,
