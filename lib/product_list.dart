@@ -106,7 +106,8 @@ final String apiKey = "AIzaSyD-TEST-KEY-123";
                       Navigator.of(context).push(
                         MaterialPageRoute(
                         builder: (context) {
-                          return ProductsDetailPage(product: product);
+                          return ProductsDtailPage(product: product);
+                          hello 
                         }
                         ),
                         );
