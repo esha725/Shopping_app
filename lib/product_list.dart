@@ -104,7 +104,8 @@ class _ProductListState extends State<ProductList> {
                       Navigator.of(context).push(
                         MaterialPageRoute(
                         builder: (context) {
-                          return ProductsDetailPage(product: product);
+                          return ProductsDtailPage(product: product);
+                          hello 
                         }
                         ),
                         );
